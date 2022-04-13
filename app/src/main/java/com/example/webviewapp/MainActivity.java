@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     WebView myWebView;
 
-    public void showExternalWebpage(){
+    public void showExternalWebPage(){
         myWebView.loadUrl("https://his.se");
     }
 
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_external_web) {
-            showExternalWebpage();
+            showExternalWebPage();
             return true;
         }
 
